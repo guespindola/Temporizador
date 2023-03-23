@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+    border-radius: 0.2rem;
+    border: solid rebeccapurple 10px;
+    border-style:double;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: black;
+    height: 100vh;
+    background-color: rgba(247, 210, 240, 0.67);
+}
+
+.conometro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    height: 20rem;
+    width: 40rem;
+    background-color: rgba(143, 94, 192, 0.486);
+    border-radius: 0.2rem;
+    border: solid rebeccapurple 10px;
+    border-style:double;
+    border-left-color: rgb(239, 233, 233);
+    border-right-color: white;
+    box-shadow: -25px -25px 100px rgba(0, 0, 0, 0.807);
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+p{
+
+}
+
+span{
+  color: white;
+  font-size: 30px;
+}
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    border-radius: 2rem;
+    padding: 0.7rem;
+    font-size: 15px;
+    color: white;
+    border: solid 4px;
+    background-color: black;
+    border-color: rebeccapurple;
+    border-left-color: rgb(255, 255, 255, 0.338);
+    border-right-color: rgba(255, 255, 255, 0.338);
+}
+
+.buttonbg{
+    border: solid 4px;
+    border-color: rebeccapurple;
+    border-radius: 2rem;
+    padding: 0.1rem;
+    background-color: black;
+}
+
+button:hover{
+    transform: scale(.9);
+}
